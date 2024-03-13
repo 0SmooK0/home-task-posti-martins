@@ -33,7 +33,8 @@ __ https://github.com/robotframework/SeleniumLibrary#installation
 Running tests
 -------------
 Test Cases are located in 'tests' folder. You can run them from root or individually. To run all of them, try using:
-    robot --outputdir results/ tests/
+
+`robot --outputdir results/ tests/`
 
 This will also generate report and log in 'Result' folder.
 Limited number of variables, including the browser, are stored in resources\common_resources.robot. Just note that this has only been tested on Chrome.
@@ -42,7 +43,8 @@ Limited number of variables, including the browser, are stored in resources\comm
 Reporting
 --------------
 There is no pipeline or script built in but there is a library to generate more attractive reports based on the last results. Try using this command
-    robotmetrics --inputpath ./result/ --output output.xml
+
+`robotmetrics --inputpath ./result/ --output output.xml`
 
 TO DO
 --------------
