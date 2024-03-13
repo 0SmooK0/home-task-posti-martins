@@ -44,7 +44,7 @@ Reporting
 --------------
 There is no pipeline or script built in but there is a library to generate more attractive reports based on the last results. Try using this command
 
-`robotmetrics --inputpath ./result/ --output output.xml`
+`robotmetrics --inputpath ./results/ --output output.xml`
 
 TO DO
 --------------
